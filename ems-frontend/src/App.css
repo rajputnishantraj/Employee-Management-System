@@ -1,0 +1,91 @@
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.form-container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.employees-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employees-container h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.employees-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employees-container li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.employees-container li:last-child {
+  border-bottom: none;
+}
+
+.employees-container li div {
+  flex: 1;
+}
+
+.employees-container li div button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.employees-container li div button:hover {
+  background-color: #c82333;
+}
